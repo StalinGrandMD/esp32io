@@ -23,7 +23,7 @@ A Python library for controlling an **ESP32** with an **SSD1306 OLED (128×64)**
   - `/folder/file.txt`
 - The **ESP32 and PC must be on the same network** for Wi-Fi file transfer
 - Wi-Fi **automatically stops after sending a file**
-- The **Program its working only linux mint, if have other you need to compile serial_device-source_code.cpp in esp32io folder** the compilation command is **c++ -O3 -Wall -shared -std=c++17 -fPIC     $(python3 -m pybind11 --includes)     serial_device-source_code.cpp -o serial_device$(python3-config --extension-suffix)**
+- The **Program its working only linux mint, if have other you need to compile serial_device-source_code.cpp in esp32io folder** the compilation command is `c++ -O3 -Wall -shared -std=c++17 -fPIC     $(python3 -m pybind11 --includes)     serial_device-source_code.cpp -o serial_device$(python3-config --extension-suffix)`
 
 ---
 
