@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "esp32io"
+version = "0.1.0"
+description = "ESP32 OLED + SD control over serial"
+authors = [{name="StalinGrandMD"}]
+dependencies = ["pyserial"]
+
