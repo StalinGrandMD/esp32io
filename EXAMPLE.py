@@ -7,7 +7,11 @@ sd = SDCard(oled.dev)
 # SD Commands
 sd.list("/")
 # Oled Commands
-oled.binmap_gif("/gg1.bin","/gg2.bin","/gg3.bin",500,10)
+oled.clear()
+oled.text("Is this real?", 0, 0)
+oled.circle(64, 32, 10, True)
+oled.rect(39, 20, 50, 24)
+oled.show()
 ## End
 oled.dev.close_serial()
 
